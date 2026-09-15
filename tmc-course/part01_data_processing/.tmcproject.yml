@@ -1,0 +1,9 @@
+# Exercise-level overrides/additions, merged with the course-root
+# .tmcproject.yml. Fields confirmed against TmcProjectYml in
+# rage/tmc-langs-rust (see the top-level .tmcproject.yml comment for the
+# source reference).
+
+# This exercise imports numpy, so name the sandbox image known to carry a
+# Python + numpy toolchain. Confirmed as a real, documented field
+# (sandbox_image); the exact tag/registry path is a TODO - see README.md.
+# sandbox_image: "eu.gcr.io/moocfi-public/tmc-sandbox-python:latest"

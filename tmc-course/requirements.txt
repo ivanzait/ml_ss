@@ -1,0 +1,13 @@
+# Dependencies needed to work on and locally test exercises in this course.
+#
+# numpy is the only third-party dependency used by course exercises
+# (pandas is intentionally not used anywhere in this course).
+#
+# IMPORTANT - read the "How numpy reaches the grading sandbox" section of
+# README.md: this file makes numpy available to YOU (course author) and to
+# students running exercises locally. Whether the TMC grading sandbox that
+# runs `tmc-langs-cli tmc submit` submissions on tmc.mooc.fi also has numpy
+# preinstalled, or needs it added to a custom sandbox_image, is flagged
+# there as an open TODO - it could not be confirmed from public docs.
+numpy>=1.26,<3
+pytest>=7.0

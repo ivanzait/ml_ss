@@ -1,0 +1,22 @@
+# Course-level configuration read by the TMC server (tmc-server / tmc.mooc.fi)
+# when this repository is registered/refreshed as a course. This file is NOT
+# parsed by tmc-langs-cli when testing exercises locally - see README.md.
+#
+# Fields below are limited to what is documented in the TMC webapp user
+# manual ("Custom course configuration" - course_options.yml section):
+# https://testmycode-usermanual.github.io/usermanual/customcourse.html
+#
+# Fields the task brief asked for but that could NOT be confirmed in any
+# TMC/mooc.fi documentation (e.g. a "hide_type" key, a per-part "points"
+# array, or deadlines) are intentionally NOT included here - see the
+# "## TODO" section of README.md for why, and where that information
+# actually belongs instead (metadata.yml, and @points decorators in tests).
+
+# Course is unpublished (hidden from students) until you flip this to false.
+hidden: true
+
+# Name shown on completion certificates.
+formal_name: "Machine Learning for Space Plasma Physics"
+
+# Whether students who complete the course can download a certificate.
+certificate_downloadable: false

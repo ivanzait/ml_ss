@@ -1,0 +1,12 @@
+# Per-exercise/per-directory configuration read by the TMC server, same
+# lookup rules as course_options.yml (a metadata.yml in a subdirectory
+# overrides one closer to the root for exercises under that subdirectory).
+# Reference: https://testmycode-usermanual.github.io/usermanual/customcourse.html
+#
+# This top-level file only sets a course-wide placeholder deadline; give
+# each part (or each exercise) its own metadata.yml to override it once
+# real dates are decided - see README.md "## TODO" for what is still a
+# placeholder here.
+
+# TODO: placeholder deadline - replace before the course runs.
+deadline: 2027-01-01 23:59:00 +0200
