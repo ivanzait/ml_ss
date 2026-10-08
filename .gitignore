@@ -4,3 +4,4 @@ __pycache__/
 .tmc_test_results.json
 .available_points.json
 .atl/
+.claude/
