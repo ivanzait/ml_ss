@@ -1,0 +1,17 @@
+# Course-wide defaults, merged into every exercise's own .tmcproject.yml
+# (an exercise-level .tmcproject.yml overrides these on a per-field basis;
+# lists such as extra_student_files are NOT merged, only replaced).
+#
+# Schema confirmed from crates/tmc-langs-framework/src/tmc_project_yml.rs
+# in https://github.com/rage/tmc-langs-rust (TmcProjectYml struct), commit
+# used for verification: 0.39.6 (2026-09-15).
+#
+# Every field below is optional; only fields that are actually documented
+# in that struct are listed here - see README.md "TODO / uncertain" section
+# for anything that was deliberately left out.
+
+# Minimum Python version students must run locally to attempt this course.
+minimum_python_version: "3.10"
+
+# Fail a submission's tests after this many milliseconds (10s here).
+tests_timeout_ms: 10000
